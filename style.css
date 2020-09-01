@@ -1,0 +1,296 @@
+img {
+    margin: 40px 0 0 60px;
+    filter: drop-shadow(10px 20px 5px #000);
+}
+
+/* Aula 29
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100vw;
+    height: 80px;
+    background-color: yellowgreen;
+}
+
+.banner {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    background-color: blueviolet;
+}
+*/
+
+/* Aula 22
+
+body{
+    background-image: url(../img/logi.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+*/
+
+/* Aula 21
+#exemplo {
+    width: 200px;
+    height: 200px;
+    background-color: lawngreen;
+    transition: all 2s linear;
+}
+
+#exemplo:hover {
+    width: 350px;
+    height: 350px;
+    background-color: purple;
+}
+*/
+
+/* Aula 20
+#exemplo {
+    border-style: solid;
+    border-width: 5px;
+    border-color: lawngreen;
+     outro modo:
+    border:solid, 5px, lawngreen;
+    outline: dotted 5px purple;
+}
+*/
+
+/* Aula 19
+#conteudo {
+    width: 600px;
+    height: 1200px;
+    background-color: indigo;
+    position: relative;
+}
+
+#texto {
+    width: 500px;
+    background-color: lawngreen;
+    position: fixed;
+    left: 20px;
+    top: 0;
+}
+*/
+
+/* Aula 18
+#base  {
+
+    background-color: blueviolet;
+    width: 600px;
+    height: 600px;
+}
+
+#esquerda {
+    background-color:yellow;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+#direita {
+    background-color: greenyellow;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+*/
+
+/* Aula 16 17
+#cores {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(black, yellow);    
+}
+    /** outras formas de usar alem do backgroud-color é em codigo #FFFF,
+    digitando os valores RGB(12,12,12)
+    e em hsl (mesmo modo que rgb)
+}
+*/
+
+/* Aula 13 14 15
+* {
+    font-size: 100%;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+*/
+
+/*Aula 12
+
+#bloco {
+    background-color: blueviolet;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px 50px 100px;
+}
+*/
+
+/* Aula 11
+#conteudo {
+    background-color: blueviolet;
+    width: 300px;
+    height: 70px;
+    overflow: auto;
+}
+
+#conteudo p {
+    opacity: 0.5;
+}
+*/
+
+/* Aula 10
+* {
+    box-sizing: border-box;
+}
+
+#conteudo {
+    background-color: blueviolet;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px black;
+}
+*/
+
+/* Aula 8 e 9
+p {
+    color: blueviolet;
+    text-transform: none;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 25px;
+    direction: ltr;
+    letter-spacing: 2px;
+    word-spacing: -3px;
+}
+
+h1 {
+    text-align: left;
+    text-decoration: overline;
+    text-shadow: 3px 3px blueviolet;
+}
+
+h2 {
+    text-align: right;
+    text-decoration: underline;
+}
+
+h3 {
+     text-align: center;
+     text-decoration: line-through;
+}*/
+
+/* Aula 7
+#exemplo {
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 200px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px
+    /*Pode se fazer do sentido horario
+       padding: 10px 20px 30px 30px;    
+    
+
+}
+
+#exemplo2{
+    background-color: blue;
+    color: black;
+    width: 500px;
+    margin: 20px 20px;
+}*/
+
+/* Aula 6
+#conteudo {
+    min-width: 500px;
+    max-height: 80px;
+    background-color: green;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}*/
+
+/* Aula 5
+
+.texto-principal {
+    color: darkred;
+    text-align: center;
+}
+
+.fundo-principal{
+    background-color: dimgrey;
+    padding: 20px;
+}
+
+#conteudo {
+    background-color: dodgerblue;
+    padding: 20px;
+
+}*/
+
+/* Aula 4
+
+h1, h2, p {
+
+    color: darkmagenta;
+    text-align: center;
+}
+*/
+
+/* Aula 2 e 3
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+   color: blue; 
+   font-size: 50px;
+}
+p {
+    color: brown;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 35px;
+    background-color: rgb(102, 102, 107);
+    border: none;
+
+    
+}
+
+input[type="email"] {
+    width: 200px;
+    height: 35px;
+    background-color: rgb(102, 102, 109);
+    border: none;
+
+    
+}
+
+input[type="submit"] {
+    width: 200px;
+    height: 35px;
+    background-color: rgb(114, 114, 226);
+    border: none;
+    cursor: pointer;
+
+    
+}*/
+
+/*Aula:1
+h1 {
+    color: blueviolet;
+    font-size:100px;
+    font-family:fantasy
+}
+*/
